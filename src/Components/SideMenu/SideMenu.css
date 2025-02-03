@@ -1,0 +1,50 @@
+.side-menu {
+  width: 25%;
+  height: 100vh;
+  padding: 0.75rem 1rem;
+  background-color: #f9fafb;
+  overflow-y: auto;
+}
+.side-menu .logo {
+  width: 100%;
+}
+.side-menu ul {
+  margin-top: 1.5rem;
+  list-style: none;
+  padding: 0;
+}
+.side-menu ul li {
+  padding: 0.3rem 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 0.75rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+.side-menu ul li:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 6px rgba(255, 165, 0, 0.1);
+  transition: all 0.3s ease;
+}
+.side-menu ul li.primary {
+  background-color: #ffa500;
+  color: #ffffff;
+  box-shadow: 0 4px 6px rgba(255, 165, 0, 0.3);
+}
+.side-menu ul li.border {
+  border: 1px solid #d1d5db;
+}
+.side-menu ul li a {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: inherit;
+  margin-right: 0.75rem;
+}
+.side-menu ul li .text {
+  flex: 1;
+  white-space: nowrap;
+  font-family: cursive;
+  margin-left: 0.5rem;
+}/*# sourceMappingURL=SideMenu.css.map */
